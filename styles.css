@@ -148,7 +148,7 @@ body{
     .achievementSpotRow .fa{
         max-width: 86% !important;
     }
-    .achievementSpot p,{
+    .achievementSpot p{
         text-align: left;
         line-height: 30px;
     }
@@ -178,5 +178,5 @@ body{
         text-align: center;
      }
      .bg-grey{
-         background-color: rgb(192, 190, 190);
+         background-color: rgb(216, 216, 216);
      }
