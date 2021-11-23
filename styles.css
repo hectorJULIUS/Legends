@@ -62,7 +62,7 @@ body{
     }
     
     .icons-bar a:hover{
-        background-color: orange;
+        background-color: rgb(0, 47, 255);
         color: #fff; 
     }
     
@@ -125,3 +125,58 @@ body{
         font-size: 15px;
         background-color:  #0c10fe;
     }
+    .lr-btn :hover{
+        color: #0c10fe;
+        background-color: white;
+    }
+    .achievementSpotRow img{
+        height: 200px;
+        width: 300px;
+        box-shadow: 19px 19px #dfe3e8;
+    }
+    
+    .achievementSpot span{
+        color: #0c10fe;
+    }
+    .achievementSpot{
+        padding: 40px 0px 120px 0px !important;
+    }
+    
+    .achievementSpotRow{
+        padding-left: 90px;
+    }
+    .achievementSpotRow .fa{
+        max-width: 86% !important;
+    }
+    .achievementSpot p,{
+        text-align: left;
+        line-height: 30px;
+    }
+    .border-ex{
+        background-color:#0c10fe ;
+        height: 4px;
+        width: 40px;
+        margin: 10px 0px;
+    }
+    .innerSection .border{
+        height: 4px;
+        width: 40px;
+        background-color: #fff;
+    }
+    .innerSection{
+        background-color:  #0c10fe;
+        padding: 80px;
+    }
+    .innerSection h4{
+        color: #fff;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .innerSection h5{
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+     }
+     .bg-grey{
+         background-color: rgb(192, 190, 190);
+     }

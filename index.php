@@ -115,6 +115,65 @@
             </div>
         </center>
     </section>
+    <section class="container-fluid bg-grey mt-5">
+        <h2 style="padding-top: 50px;" class="text-center mt-5">Our Excellence</h2>
+        <center>
+            <div class="border-ex"></div>
+            <div class="row achievementSpotRow">
+                <div class="col-md-5 mt-5">
+                    <img src="images/new.jpg" class="img-fliud mb-5">
+                </div>
+                <div class="col-md-7">
+                    <h5 class="ml-4 py-3">Ultra Pro-Driving</h5>
+                    <p>
+                     Frederica Academy admits students of any race, color, national origin, religion, and sex to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.  It does not discriminate because of race, color, national origin, religion, sex, or any other category protected by law in the administration of its education policies, admissions policies, scholarship and loan programs, and athletic and other school-administered programs.
+                     <br><br>
+                     <span>
+                         <strong style="color: #0c10fe;">
+                             <i  class="fas fa-calendar-alt"></i>&nbsp;Awarded on:12th may 2021
+                         </strong>
+                     </span>
+                 </p>
+                   
+
+                </div>
+
+            </div>
+        </center>
+    </section>
+
+    <section class=" memberSection">
+        <div class="innerSection">
+            <center>
+            <div class="row membersRow">
+
+                <div class="col-md-4">
+                    <h4>1200</h4>
+                    <div class="border"></div>
+                    <h5>
+                        <small>students</small>
+                    </h5>
+                </div>
+                
+                <div class="col-md-4">
+                  <h4>172</h4>
+                  <div class="border"></div>
+                  <h5>
+                      <small>Teachers</small>
+                  </h5>
+              </div>
+              <div class="col-md-4">
+                  <h4>39</h4>
+                  <div class="border"></div>
+                  <h5>
+                      <small>Departments</small>
+                  </h5>
+              </div>
+            </div>
+            </center>
+        </div>
+
+    </section>
 
     <?php include 'footer.php' ;?>
     
