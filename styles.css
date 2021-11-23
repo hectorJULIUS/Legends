@@ -1,0 +1,127 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .carousel_slideP{
+        height: 700px;
+    }
+    .marketingRow .fa{
+        width: 100px;
+        height: 97px;
+        color:  #0c10fe;
+        border: 2px solid  #0c10fe;
+        padding: 20px;
+        border-radius: 40px;
+        transition: 0.2s linear;
+    }
+    
+    .marketingRow .fa:hover{
+        border-radius: 48%;
+    }
+    
+    .marketingSection p{
+        max-width: 47%;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    .marketingRow{
+        max-width: 94% !important;
+    }
+    
+    .marketingSection .border{
+        background:  #0c10fe;
+        height: 4px !important;
+        width: 40px;
+        height: 3px;
+        margin: 10px 0px;
+    }
+    .icons-bar{
+        position: fixed;
+       display: flex;
+       flex-direction: column;
+       top: 50%;
+       right: 0%;
+       z-index: 100;
+       -webkit-transform: translateY(-50%);
+       -ms-transform: translateY(-50%);
+       transform: translateY(-50%);
+    }
+    
+    .icons-bar a{
+        display: block;
+        text-align: center;
+        padding: 9px 9px;
+        transition: all 0.3s ease;
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    
+    .icons-bar a{
+        background-color: #0c10fe;
+    }
+    
+    .icons-bar a:hover{
+        background-color: orange;
+        color: #fff; 
+    }
+    
+    
+    .icons-social{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+        left: 0%;
+        z-index: 100;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .icons-social a{
+        display: block;
+        text-align: center;
+        padding: 18px 16px;
+        transition: all 0.3s ease;
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    h1,h2,h3,h4,h5,h6{
+    color: #0c10fe;
+    margin: 0;
+    font-weight: 549;
+    
+    }
+    .carousel_slide img{
+        height: 600px;
+    }
+    .navbar-nav li a{
+        justify-content: right;
+        padding: 10px;
+        border-radius: 50%;
+        position: relative;
+        display: inline-block;
+
+    }
+    .navbar-collapse{
+        margin-left: 100px;
+        font-weight: bold;
+        padding: 10px;
+       
+    }
+    .lr a{
+        display: inline-block;
+        
+    }
+    
+    .lr-btn{
+        width: 140px;
+        border-radius: 40px;
+        padding:8px;
+        margin-top: -10px;
+        margin-bottom: -12px;
+        color: #fff;
+        font-size: 15px;
+        background-color:  #0c10fe;
+    }

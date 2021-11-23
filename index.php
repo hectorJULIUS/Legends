@@ -1,5 +1,120 @@
 
     <?php include 'navbar.php' ;?>
     <?php include 'header.php' ;?>
+    <section>
+        <div id="carouselExampleControls" class="carousel_slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/adrian-dascal-Ar4uu5YKLK4-unsplash.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/alex-jumper-JgEtmgOjoew-unsplash.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/eduardo-casajus-gorostiaga-qjmEuyFIoe4-unsplash.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="iconsSection">
+        <div class="icons-bar">
+            <a href="#">
+                <i class="fa fa-address-book"></i>
+                <br>
+                Enrol
+            </a>
+
+            <a href="#">
+                <i class="fa fa-plus"></i>
+                <br>
+                Apply
+            </a>
+
+            <a href="#">
+                <i class="fa fa-file-signature"></i>
+                <br>
+                Join Us
+            </a>
+
+        </div>
+        <div class="icons-social">
+            <a href="#" style="background-color: #4267b2;" title="facebook">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+
+            </a>
+        
+            <a href="#" style="background-color: #1da1f2;" title="twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+
+            </a>
+
+            <a href="#" style="background-color: #ff0000;" title="youtube">
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+
+            </a>
+
+        </div>
+    </section>
+
+
+    
+
+    <section class="marketingSection">
+        <h2 class="text-center mt-5">
+            <strong>This is what we offer</strong>
+        </h2>
+        <center>
+            <div class="border"></div>
+            <p class="py-3">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            </p>
+            <div class="row mt-5 marketingRow">
+               <div class="col-md-4">
+                  <i class="fa fas fa-hands-helping fa-3x"></i>
+                  <h4 class="mt-4">
+                      <strong>Brighter Future</strong>
+                    </h4>
+                  <div class="border"></div>
+                  <p>
+                      Lorem Ipsum is simply dummy text of the printing and 
+                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                   </p>
+               </div>
+
+               <div class="col-md-4">
+                   <i class="fa fas fa-people-carry fa-3x"></i>
+                   <h4 class="mt-4"><strong>Qualified Teachers</strong></h4>
+                   <div class="border"></div>
+                   <p>
+                       Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                       Lorem Ipsum has been the industry's standard dummy text ever
+                   </p>
+                </div>
+
+                <div class="col-md-4">
+                   <i class="fa fa-book fa-3x"></i>
+                   <h4 class="mt-4"><strong>State-of-The-Art Facilities</strong></h4>
+                   <div class="border"></div>
+                   <p>
+                       Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                       Lorem Ipsum has been the industry's standard dummy text ever
+                   </p>
+                </div>
+
+
+
+            </div>
+        </center>
+    </section>
+
     <?php include 'footer.php' ;?>
     
