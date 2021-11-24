@@ -180,3 +180,12 @@ body{
      .bg-grey{
          background-color: rgb(216, 216, 216);
      }
+     .newsSection .border{
+        background-color: #0c10fe;
+        height: 4px;
+        width: 40px;
+        margin: 10px 0px;
+    }
+    
+   
+   
