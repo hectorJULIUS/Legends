@@ -25,46 +25,7 @@
           </div>
     </section>
 
-    <section class="iconsSection">
-        <div class="icons-bar">
-            <a href="#">
-                <i class="fa fa-address-book"></i>
-                <br>
-                Enrol
-            </a>
-
-            <a href="#">
-                <i class="fa fa-plus"></i>
-                <br>
-                Apply
-            </a>
-
-            <a href="#">
-                <i class="fa fa-file-signature"></i>
-                <br>
-                Join Us
-            </a>
-
-        </div>
-        <div class="icons-social">
-            <a href="#" style="background-color: #4267b2;" title="facebook">
-                <i class="fab fa-facebook" aria-hidden="true"></i>
-
-            </a>
-        
-            <a href="#" style="background-color: #1da1f2;" title="twitter">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-
-            </a>
-
-            <a href="#" style="background-color: #ff0000;" title="youtube">
-                <i class="fab fa-youtube" aria-hidden="true"></i>
-
-            </a>
-
-        </div>
-    </section>
-
+   <?php include 'icons.php'; ?>
 
     
 
@@ -140,131 +101,138 @@
 
             </div>
         </center>
-    </section>
-
-    <section class=" memberSection">
-        <div class="innerSection">
-            <center>
-            <div class="row membersRow">
-
-                <div class="col-md-4">
-                    <h4>1200</h4>
-                    <div class="border"></div>
-                    <h5>
-                        <small>students</small>
-                    </h5>
-                </div>
-                
-                <div class="col-md-4">
-                  <h4>172</h4>
-                  <div class="border"></div>
-                  <h5>
-                      <small>Teachers</small>
-                  </h5>
-              </div>
-              <div class="col-md-4">
-                  <h4>39</h4>
-                  <div class="border"></div>
-                  <h5>
-                      <small>Departments</small>
-                  </h5>
-              </div>
-            </div>
-            </center>
-        </div>
-
-    </section>
-
-    <!--News section-->
-    <section class="newsSection bg-light">
-        <center>
-            <h2 class="text-center">Latest News</h2>
-            <div class="border"></div>
-            <div class="row newsSectionRow mt-5">
-                <div class="col-md-4">
-                    <div class="card newsCard">
-                        <div class="card-header">
-                            <img src="images/maxime-agnelli-6neOO6DmkiY-unsplash.jpg" height="300px" width="100%">
-                        </div>
-
-                        <div class="card-body">
-                            <span id="newsDate">17th Jul 2021</span> &nbsp;
-                            <span class="poster">By Muoka</span>
-                            <hr>
-                            <h5 class="py-3">
-                                <strong>Rally Camping</strong>
-                            </h5>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                            </p>
-                        </div>
-
+        <section class=" memberSection">
+            <div class="innerSection">
+                <center>
+                <div class="row membersRow">
+    
+                    <div class="col-md-4">
+                        <h4>1200</h4>
+                        <div class="border"></div>
+                        <h5>
+                            <small>students</small>
+                        </h5>
                     </div>
-
+                    
+                    <div class="col-md-4">
+                      <h4>172</h4>
+                      <div class="border"></div>
+                      <h5>
+                          <small>Teachers</small>
+                      </h5>
+                  </div>
+                  <div class="col-md-4">
+                      <h4>39</h4>
+                      <div class="border"></div>
+                      <h5>
+                          <small>Departments</small>
+                      </h5>
+                  </div>
                 </div>
-                <!--end of column1-->
-                
-                <div class="col-md-4">
-                  <div class="card newsCard">
-                      <div class="card-header">
-                          <img src="images/george-brynzan-x5M3IFKmdxk-unsplash.jpg" height="300px" width="100%">
-                      </div>
-
-                      <div class="card-body">
-                          <span id="newsDate">10th Aug 2021</span> &nbsp;
-                          <span class="poster">By Julius</span>
-                          <hr>
-                          <h5 class="py-3">
-                              <strong>Streets Benefits</strong>
-                          </h5>
-                          <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                          </p>
-                      </div>
-
-                  </div>
-
-              </div>
-              <div class="col-md-4">
-                  <div class="card newsCard">
-                      <div class="card-header">
-                          <img src="images/nick-fewings-RgJqQPZupgM-unsplash.jpg" height="300px" width="100%">
-                      </div>
-
-                      <div class="card-body">
-                          <span id="newsDate">26th Sept 2021</span> &nbsp;
-                          <span class="poster">By Hector</span>
-                          <hr>
-                          <h5 class="py-3">
-                              <strong>Race Track competitions</strong>
-                          </h5>
-                          <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                              
-                          </p>
-                      </div>
-
-                  </div>
-
-              </div>
+                </center>
             </div>
-            <a href="#">
-              <button style="border-radius: 40px;
-              margin: 40px;
-              width: 14%;
-              padding: 10px;
-              color: #fff;
-              font-family:calibri;
-              transition: 0.5s linear;
-              background-color:  #0c10fe;" class="btn btn-lg btn-default site_btn">
-                  <i class="fa fa-eye"></i> &nbsp;
-                  View More
-              </button>
-          </a>
-        </center>
-
+    
+        </section>
+    
+        <!--News section-->
+        <section class="newsSection ">
+            <center>
+                <h2 class="text-center mt-5 ">Latest News</h2>
+                <div class="border" style="background:  #0c10fe;
+                height: 4px !important;
+                width: 40px;
+                height: 3px;
+                margin: 10px 0px;"></div>
+                <div class="row newsSectionRow mt-5">
+                    <div class="col-md-4">
+                        <div class="card newsCard">
+                            <div class="card-header">
+                                <img src="images/maxime-agnelli-6neOO6DmkiY-unsplash.jpg" height="300px" width="100%">
+                            </div>
+    
+                            <div class="card-body">
+                                <span id="newsDate">17th Jul 2021</span> &nbsp;
+                                <span class="poster">By Muoka</span>
+                                <hr>
+                                <h5 class="py-3">
+                                    <strong>Rally Camping</strong>
+                                </h5>
+                                <p>
+                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                </p>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                    <!--end of column1-->
+                    
+                    <div class="col-md-4">
+                      <div class="card newsCard">
+                          <div class="card-header">
+                              <img src="images/george-brynzan-x5M3IFKmdxk-unsplash.jpg" height="300px" width="100%">
+                          </div>
+    
+                          <div class="card-body">
+                              <span id="newsDate">10th Aug 2021</span> &nbsp;
+                              <span class="poster">By Julius</span>
+                              <hr>
+                              <h5 class="py-3">
+                                  <strong>Streets Benefits</strong>
+                              </h5>
+                              <p>
+                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                              </p>
+                          </div>
+    
+                      </div>
+    
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card newsCard">
+                          <div class="card-header">
+                              <img src="images/nick-fewings-RgJqQPZupgM-unsplash.jpg" height="300px" width="100%">
+                          </div>
+    
+                          <div class="card-body">
+                              <span id="newsDate">26th Sept 2021</span> &nbsp;
+                              <span class="poster">By Hector</span>
+                              <hr>
+                              <h5 class="py-3">
+                                  <strong>Race Track competitions</strong>
+                              </h5>
+                              <p>
+                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                  
+                              </p>
+                          </div>
+    
+                      </div>
+    
+                  </div>
+                </div>
+                <a href="#">
+                  <button style="border-radius: 40px;
+                  margin: 40px;
+                  width: 14%;
+                  padding: 10px;
+                  color: #fff;
+                  font-family:calibri;
+                  transition: 0.5s linear;
+                  background-color:  #0c10fe;" class="btn btn-lg btn-default site_btn">
+                      <i class="fa fa-eye"></i> &nbsp;
+                      View More
+                  </button>
+              </a>
+            </center>
+    
+        </section>
     </section>
+
+    
     <!--End of News section-->
+
+     
 
     <?php include 'footer.php' ;?>
     

@@ -186,6 +186,13 @@ body{
         width: 40px;
         margin: 10px 0px;
     }
+    .bannerSection{
+        margin-top: 100px;
+    }
+    .bannerSection img{
+        height: 540px;
+    }
+    
     
    
    
