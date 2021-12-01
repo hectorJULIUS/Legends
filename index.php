@@ -211,7 +211,7 @@
     
                   </div>
                 </div>
-                <a href="#">
+                <a href="News.php">
                   <button style="border-radius: 40px;
                   margin: 40px;
                   width: 14%;

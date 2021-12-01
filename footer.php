@@ -18,28 +18,7 @@
                       <p>
                           Sunday  :<span>Closed</span>
                       </p>
-                      <div class="footer-top-box">
-                          <p>Follow us</p>
-                          <ul>
-                              <li>
-                                  <a href="#">
-                                      <i class="fab fa-facebook" aria-hidden="true"></i>
-                                  </a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                                </a>
-                            </li>
-
-                          </ul>
-
-                      </div>
+                     
 
                   </div>
               </div>
@@ -91,10 +70,19 @@
                       </ul>
 
                   </div>
+                 
 
               </div>
+              
               <!--END OF COLUMN THREE-->
          </div>
+         <hr style="color: blue;">
+    </div>
+
+    
+    <div class="col-md-12 text-center">
+        <p class="pop">Designed in <i class="far fa-heart"></i> by Hector M. Julius </p>
+
     </div>
   </div>
 </footer>

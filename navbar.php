@@ -17,28 +17,19 @@
             Departments
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">ICT</a></li>
-            <li><a class="dropdown-item" href="#">Library</a></li>
-            <li><a class="dropdown-item" href="#">Science</a></li>
+            <li><a class="dropdown-item" href="Anti-theft.php">Anti-Theft</a></li>
+            <li><a class="dropdown-item" href="MotorSportRacing.php">MotorSportRacing</a></li>
+      
           </ul>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="#">Clubs & Societies</a>
+          <a class="nav-link" href="News.php">News</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            More
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Gallery</a></li>
-            <li><a class="dropdown-item" href="#">News</a></li>
-            
-          </ul>
-        </li>
+        
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item lr">
-            <a href="#" class="nav-link">
+            <a href="login.php" class="nav-link">
                 <button class="btn btn-primary lr-btn">
                     <i class="fa fa-edit">log in</i>
                 </button>
@@ -46,7 +37,7 @@
         </li>
         <li class="nav-item lr">    
 
-            <a href="#" class="nav-link">
+            <a href="Registration.php" class="nav-link">
                 <button class="btn btn-primary lr-btn">
                     <i class="fa fa-edit">Register</i>
                 </button>

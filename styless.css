@@ -192,7 +192,80 @@ body{
     .bannerSection img{
         height: 540px;
     }
-    
+   /*CONTENT SECTION*/
+.contentSection{
+    padding: 100px;
+}
+.contentSection .border{
+    margin-bottom: 10px;
+    background:  #0c10fe;
+    height: 4px !important;
+    margin-left: 20px !important;
+    width: 40px;
+}
+.value-Section .border{
+    margin-bottom: 10px;
+    background:  #0c10fe;
+    height: 4px !important;
+    margin-left: 20px !important;
+    width: 40px;
+
+}
+/*END OF CONTENT SECTION*/
+.bannerSection{
+    position: relative;
+    margin-top: 3px;
+}
+
+.bannerSection .bannerImage{
+    height: 440px;
+}
+
+.bannerPageSection{
+    background-size: 100%;
+}
+
+.innerBannerPageSection{
+    background-color: rgba(150, 144, 144, 0.9);
+    background-size: 100% 100%;
+    height: 270px;
+}
+
+.bannerContent{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.bannerContent h2,h6{
+    color: #fff;
+}
+/*REGISTRATION SECTION*/
+.contactSpot .btn{
+    border-radius: 40px;
+    margin: 40px;
+    width: 14%;
+    padding: 10px;
+    color: #fff;
+    font-family:calibri;
+    transition: 0.5s linear;
+    background-color:  #0c10fe;   
+}
+.contactSpot .btn:hover{
+    color: #fff;
+    background-color:rgb(255, 255, 255);
+}
+.contactSpot .border{
+    margin-bottom: 10px;
+    background:  #0c10fe;
+    height: 4px !important;
+    margin-left: 20px !important;
+    width: 40px;
+}
+.contactSpot p{
+    line-height: 25px;
+}
+/*END OF REGISTRATION SECTION*/
     
    
    
