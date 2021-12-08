@@ -1,6 +1,7 @@
 
     <?php include 'navbar.php' ;?>
     <?php include 'header.php' ;?>
+    <head><link rel="icon" href="images/kisspng-car-the-academy-driving-school-drivers-education-driver-education-community-ed-at-pcc-5ba348bed6c0f4.6574446615374276468796.png" type="image/jpg"></head>
     <section>
         <div id="carouselExampleControls" class="carousel_slide" data-bs-ride="carousel">
             <div class="carousel-inner">
