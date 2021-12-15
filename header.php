@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="images/kisspng-car-the-academy-driving-school-drivers-education-driver-education-community-ed-at-pcc-5ba348bed6c0f4.6574446615374276468796.png" type="image/jpg">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

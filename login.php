@@ -2,6 +2,9 @@
 <?php include 'header.php' ;?>
 <?php include 'icons.php'; ?>
 
+
+
+
  <!--register section-->
  <section class="contactSpot bg-white">
             <h2 class="text-center mt-5">
@@ -18,7 +21,7 @@
                     <div class="col-md-8 mb-5">
                         <div class="card formItem">
                             <div class="card-body text-left">
-                                <form method="POST" action="#">
+                                <form method="POST" action="logcon.php">
                                     <div class="row">
                    
                                          <!--column two-->
