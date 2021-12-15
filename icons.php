@@ -1,18 +1,18 @@
 <section class="iconsSection">
         <div class="icons-bar">
-            <a href="#">
+            <a href="Registration.php">
                 <i class="fa fa-address-book"></i>
                 <br>
                 Enrol
             </a>
 
-            <a href="#">
+            <a href="Registration.php">
                 <i class="fa fa-plus"></i>
                 <br>
                 Apply
             </a>
 
-            <a href="#">
+            <a href="Registration.php">
                 <i class="fa fa-file-signature"></i>
                 <br>
                 Join Us

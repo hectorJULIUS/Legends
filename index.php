@@ -1,5 +1,6 @@
 
     <?php include 'navbar.php' ;?>
+    
     <?php include 'header.php' ;?>
     <head><link rel="icon" href="images/kisspng-car-the-academy-driving-school-drivers-education-driver-education-community-ed-at-pcc-5ba348bed6c0f4.6574446615374276468796.png" type="image/jpg"></head>
     <section>
@@ -108,7 +109,18 @@
                 <div class="row membersRow">
     
                     <div class="col-md-4">
-                        <h4>1200</h4>
+                        <h4>
+                            <?php 
+                            include 'db_connect.php';
+                                 // Getting all users from db
+                                 $students = 'SELECT id from registrer';
+
+                                 // Execting the query
+                                 $query_run = mysqli_query($conn, $students);
+
+                                 echo mysqli_num_rows($query_run);                            
+                            ?>
+                        </h4>
                         <div class="border"></div>
                         <h5>
                             <small>students</small>
@@ -116,14 +128,32 @@
                     </div>
                     
                     <div class="col-md-4">
-                      <h4>172</h4>
+                      <h4><?php 
+                            include 'db_connect.php';
+                                 // Getting all users from db
+                                 $teachers = 'SELECT id from teachers';
+
+                                 // Execting the query
+                                 $query_run = mysqli_query($conn, $teachers);
+
+                                 echo mysqli_num_rows($query_run);                            
+                            ?></h4>
                       <div class="border"></div>
                       <h5>
                           <small>Teachers</small>
                       </h5>
                   </div>
                   <div class="col-md-4">
-                      <h4>39</h4>
+                      <h4> <?php 
+                            include 'db_connect.php';
+                                 // Getting all users from db
+                                 $dep = 'SELECT id from dep';
+
+                                 // Execting the query
+                                 $query_run = mysqli_query($conn, $dep);
+
+                                 echo mysqli_num_rows($query_run);                            
+                            ?></h4>
                       <div class="border"></div>
                       <h5>
                           <small>Departments</small>

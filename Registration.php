@@ -19,7 +19,7 @@
             <div class="col-md-8 mb-5">
                 <div class="card formItem">
                     <div class="card-body text-left">
-                        <form method="POST" action="#">
+                        <form method="POST" action="registrationcon.php">
                             <div class="row">
                                 <!--first column-->
                                  <div class="col-md-6">
@@ -29,7 +29,7 @@
                                                      <i class="fa fa-user"></i>
                                                  </span>
                                              </div>
-                                             <input type="text" name="Fullname" class="form-control inputFields" autofocus="" placeholder="Names">
+                                             <input type="text" name="fullname" class="form-control inputFields" autofocus="" placeholder="Names">
                                          </div> 
                                  </div>
                                  <!--end of first column-->
@@ -82,7 +82,7 @@
                               </div>
                                  <!--end of column five-->
                             </div>
-                            <button type="submit" class="btn btn-default btn-lg form-btn">
+                            <button type="submit" class="btn btn-default btn-lg form-btn" name="register">
                                 <i class="fas fa-paper-plane"></i>&nbsp; Register
                             </button>
                         </form>
